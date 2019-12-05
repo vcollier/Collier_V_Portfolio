@@ -1,8 +1,8 @@
 const config = {
-    host: "localhost",
+    host: "cleardb.net",
     port: 8889, // 3306 for windows
-    uname: "root",
-    pword: "root",
+    uname: "bac32ce1f6818a",
+    pword: "heroku_e63a51c583fc50d",
     dbase: "portfolio"
 }
 
