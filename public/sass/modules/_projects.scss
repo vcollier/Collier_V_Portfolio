@@ -1,0 +1,191 @@
+
+#projects{
+  padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba($color: #a3dcd3, $alpha: 1.0);
+    h2{
+      font-size: 20px;
+      padding: 15px;  
+  }
+  h4{
+    color: white;
+    padding: 0 30px 0 30px;
+    
+  }
+
+  .proCon{
+    margin-top: -120px;
+  }
+
+    div{
+    
+        margin: 0 auto;
+
+        p{
+            color: #aaaaaa;
+            letter-spacing: 2px;
+            padding-top: 80px;
+        }
+
+        a{
+            border: 1px solid;
+            width: 100px;
+            padding: 5px;
+            display: flex;
+            margin: 0 auto;
+        }
+        a:hover{
+            background: white;
+            color: #41797B;
+        }
+
+    }
+
+
+    #teched{
+        background: url('../../../images/tech-vid.png');
+      }
+      
+      #climatevid{
+        background: url('../../../images/climate-vid.png');
+      }
+      
+      #winead{
+        background: url('../../../images/ad-wine.png');
+      }
+      
+      #climateinfo{
+        background: url('../../../images/climate-info.png');
+      }
+      
+      #cricketinfo{
+        background: url('../../../images/cricket-info.png');
+      }
+      
+      #laurabrand{
+        background: url('../../../images/laura-brand.png');
+      }
+      
+      #england{
+        background: url('../../../images/display-pic.png');
+      }
+      
+      #drivencell{
+        background: url('../../../images/logo-organ.png');
+      }
+
+      .see-more{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .see-more a{
+      color: #FFF;
+  border: 2px solid white;
+  border-radius: 0px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 $alternate-bg;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+    .see-more a:hover {
+      box-shadow: inset 0 50px 0 0 $alternate-bg;
+      color: white;
+      border: solid 2px $alternate-bg;
+    }
+
+    .graphic{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 625px){
+  #projects{
+    padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      background: rgba($color: #a3dcd3, $alpha: 1.0);
+      #proTitle{
+        font-size: 40px;
+        padding: 15px;  
+    }
+    h4{
+      color: white;
+      font-size: 20px;
+      
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  #projects{
+
+  .see-more{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div{
+
+  h2{
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  p{
+    text-align: right;
+    margin-right: 135px;
+  }
+  a{
+    border: 1px solid;
+    width: 100px;
+    padding: 5px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 100px;
+    
+  }
+  
+}
+
+#teched{
+  background: url('../../../images/tech-vid-desk.jpg');
+}
+
+#climatevid{
+  background: url('../../../images/climate-vid-desk.jpg');
+}
+
+#winead{
+  background: url('../../../images/ad-wine-desk.jpg');
+}
+
+#climateinfo{
+  background: url('../../../images/climate-info-desk.jpg');
+}
+
+#cricketinfo{
+  background: url('../../../images/cricket-info-desk.jpg');
+}
+
+#laurabrand{
+  background: url('../../../images/laura-brand-desk.jpg');
+}
+
+#england{
+  background: url('../../../images/display-pic-desk.jpg');
+}
+
+#drivencell{
+  background: url('../../../images/logo-organ-desk.jpg');
+}
+  }
+}
