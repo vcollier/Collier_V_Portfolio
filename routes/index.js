@@ -29,9 +29,9 @@ router.post('/mail', (req, res) => {
 	console.log('body: ', req.body);
 
 const mailOptions = {
-  from: req.body.usermail,
+  from: req.body.name,
   to: auth.user,
-  replyTo: req.body.usermail,
+  replyTo: req.body.email,
   subject: `From portfolio site: Subject = ${req.body.subject || 'none'}`,
   text: req.body.message
 };
