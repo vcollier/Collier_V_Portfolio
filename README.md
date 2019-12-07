@@ -19,6 +19,15 @@ https://victoriacollier.herokuapp.com/
 
 The site will now be live on your localhost!
 
+## Installation for PHP Form
+- Follow all the steps above
+
+- Make sure the file is in the WAMP or MAMP root directory
+
+- Type in the url localhost:****/Collier_V_Portfolio/php
+
+-The localhost port may differ depending on the computer
+
 
 ### Built With
 
