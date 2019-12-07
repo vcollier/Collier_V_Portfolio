@@ -8,8 +8,8 @@
 </head>
 <body>
 <form action="data/contact.php" method="post">
-    <h1>Welcome to my Contact Page. Feel free to...</h1>
-    <h2>REACH OUT</h2>
+    <h1>Like my stuff? Send me a message so we can chat about what I can do for you.</h1>
+    
 
     <label for="name-field">Name</label>
     <input id="name-field" name="name" type="text" placeholder="Name">
