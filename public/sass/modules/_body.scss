@@ -4,6 +4,10 @@
     margin-top: -105px;
     height: 120px;
 
+    #deskHead{
+        display: none;
+    }
+
     h2{
         font-size: 20px;
         padding-top: 20px;
@@ -35,6 +39,77 @@
             font-size: 20px;
             text-align: left;
             padding: 60px 15px 20px 35px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 770px){
+    #inspiration{
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+
+        #mobHead{
+            display: none;
+        }
+
+        #deskHead{
+            display: block;
+        }
+
+        h2{
+            font-size: 50px;
+            text-align: left;
+            padding-left: 100px;
+            padding-top: 70px;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: left;
+            padding: 60px 15px 20px 60px;
+            max-width: 400px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1070px){
+    #inspiration{
+
+        h2{
+            font-size: 50px;
+            text-align: left;
+            padding-left: 220px;
+            padding-top: 70px;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: left;
+            padding: 60px 15px 20px 60px;
+            max-width: 400px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1300px){
+    #inspiration{
+
+        h2{
+            font-size: 50px;
+            text-align: left;
+            padding-left: 300px;
+            padding-top: 70px;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: left;
+            padding: 60px 15px 20px 60px;
+            max-width: 400px;
         }
     }
     
@@ -112,7 +187,7 @@
             padding-top: 100px;
         }
         #icons{
-            margin-left: 20%;
+            margin-left: 10%;
 
             div{
                 width: 70px;
@@ -125,8 +200,15 @@
 
 @media screen and (min-width: 1000px){
     #experience{
+
+        h2{
+            font-size: 50px;
+            text-align: left;
+            padding-left: 150px;
+            padding-top: 100px;
+        }
         #icons{
-            margin-left: 30%;
+            margin-left: 10%;
 
             div{
                 width: 70px;
@@ -137,6 +219,26 @@
     }
 }
 
+@media screen and (min-width: 1200px){
+    #experience{
+
+        h2{
+            font-size: 50px;
+            text-align: left;
+            padding-left: 220px;
+            padding-top: 100px;
+        }
+        #icons{
+            margin-left: 10%;
+
+            div{
+                width: 70px;
+                height: 70px;
+    
+            }
+        }
+    }
+}
 
 #mePic{
     width: 70%;
